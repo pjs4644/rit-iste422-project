@@ -14,7 +14,12 @@ EdgeFieldTest.java ------ Peter Schwarzkopf
 EdgeFieldTest.java
 
 
-//<compile instructions>// Need to do
+<compile instructions>
+-Run all commands in shell
+javac -cp .:junit-4.12.jar EdgeFieldTest.java
+>> javac EdgeField.java
+>> java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar \
+>> org.junit.runner.JUnitCore EdgeFieldTest
 
 -Get Values
     -Does getting values work?
