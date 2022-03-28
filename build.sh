@@ -13,5 +13,9 @@ echo "Running unit tests..."
 java -cp .:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore EdgeConnectorTest
 if [ $? -ne 0 ] ; then echo TESTS FAILED!; exit 1; fi
 
+echo "Running unit tests for EdgeField..."
+java -cp .:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore EdgeFieldTest
+if [ $? -ne 0 ] ; then echo TESTS FAILED!; exit 1; fi
+
 echo "Running application..."
 java RunEdgeConvert
