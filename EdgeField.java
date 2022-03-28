@@ -96,7 +96,7 @@ public class EdgeField {
       }
    }
    
-   public static String[] getStrDataType() {
+   public String[] getStrDataType() {
       return strDataType;
    }
    

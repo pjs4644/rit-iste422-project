@@ -1,0 +1,43 @@
+Class Assignments:
+
+EdgeFieldTest.java ------ Peter Schwarzkopf
+
+
+
+
+
+
+
+
+
+*************************************
+EdgeFieldTest.java
+
+
+//<compile instructions>// Need to do
+
+-Get Values
+    -Does getting values work?
+        -numFigure should be set to 1
+        -name should be set to "Peter"
+        -tableID, tableBound, fieldBound, and dataType should all be initialized to 0
+        -disallowNull and isPrimaryKey should be initialized to false
+        -dataType should be initialized to ""
+        -varcharValue should be initialized to 1
+        -strDataType should be initialized to {"Varchar", "Boolean", "Integer", "Double"}
+    
+-Set Values
+    -Does setting values work?
+        -tableID should be set to 1 then 99999
+        -tableBound should be set to 1 then 99999
+        -fieldBound should be set to 1 then 99999
+        -disallowNull and isPrimaryKey should be set to true
+        -defaultValue should be set to "Peter"
+        -varcharValue should be set to 80
+        -dataType should be set to 1
+
+
+
+****************************************************************
+
+
