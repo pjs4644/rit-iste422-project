@@ -220,11 +220,4 @@ public class EdgeFieldTest {
         assertEquals("dataType was changed to 1", 1, testObj.getDataType());
     }
 
-
-    @Test
-    //Tests getting String Data Type
-    public void testGetStrDataType(){
-        String[] array = {"Varchar", "Boolean", "Integer", "Double"};
-        assertEquals("strDataType was initialized to {\"Varchar\", \"Boolean\", \"Integer\", \"Double\"}",array, testObj.getStrDataType());
-    }
 }

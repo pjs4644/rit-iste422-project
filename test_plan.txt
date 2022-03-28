@@ -24,7 +24,6 @@ EdgeFieldTest.java
         -disallowNull and isPrimaryKey should be initialized to false
         -dataType should be initialized to ""
         -varcharValue should be initialized to 1
-        -strDataType should be initialized to {"Varchar", "Boolean", "Integer", "Double"}
     
 -Set Values
     -Does setting values work?
